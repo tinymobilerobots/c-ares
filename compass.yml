@@ -1,0 +1,19 @@
+name: c-ares
+id: ari:cloud:compass:cfcac060-7aaa-4fd9-bc94-8a8d7791ae2d:component/ae0ca6a8-6f63-451e-a3a5-f11897c0130a/f9ef04c4-f866-457b-baff-af19149593ef
+description: A C library for asynchronous DNS requests
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/tinymobilerobots/c-ares
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Bounded Context
+    type: single_select
+    value: null
